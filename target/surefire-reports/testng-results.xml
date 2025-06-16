@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-15T23:23:09 EDT" name="Surefire suite" finished-at="2025-06-15T23:23:25 EDT" duration-ms="15927">
+  <suite started-at="2025-06-16T19:42:55 EDT" name="Surefire suite" finished-at="2025-06-16T19:43:56 EDT" duration-ms="60943">
     <groups>
     </groups>
-    <test started-at="2025-06-15T23:23:09 EDT" name="Surefire test" finished-at="2025-06-15T23:23:25 EDT" duration-ms="15927">
+    <test started-at="2025-06-16T19:42:55 EDT" name="Surefire test" finished-at="2025-06-16T19:43:56 EDT" duration-ms="60943">
       <class name="Medium_Selenium_Framework_Questions.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Medium_Selenium_Framework_Questions.HomePageTest@7f552bd3]" started-at="2025-06-15T23:23:09 EDT" name="setUp" finished-at="2025-06-15T23:23:14 EDT" duration-ms="5260" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Medium_Selenium_Framework_Questions.HomePageTest@3daa422a]" started-at="2025-06-16T19:43:32 EDT" name="setUp" finished-at="2025-06-16T19:43:36 EDT" duration-ms="4349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageElementsAndNavigation()[pri:0, instance:Medium_Selenium_Framework_Questions.HomePageTest@7f552bd3]" started-at="2025-06-15T23:23:14 EDT" name="verifyHomePageElementsAndNavigation" finished-at="2025-06-15T23:23:25 EDT" duration-ms="10444" status="FAIL">
+        <test-method signature="verifyHomePageElementsAndNavigation()[pri:0, instance:Medium_Selenium_Framework_Questions.HomePageTest@3daa422a]" started-at="2025-06-16T19:43:36 EDT" name="verifyHomePageElementsAndNavigation" finished-at="2025-06-16T19:43:46 EDT" duration-ms="10039" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='logo']/a/img' (tried for 10 second(s) with 500 milliseconds interval)]]>
@@ -46,8 +46,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
@@ -59,9 +59,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [314e1bd777c3e761bf2804d8cad3062b, findElement {value=//div[@id='logo']/a/img, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\hinai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55172/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 314e1bd777c3e761bf2804d8cad3062b
+Command: [400e942018f5b73e9797394f5cd47a1d, findElement {using=xpath, value=//div[@id='logo']/a/img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\hinai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56063/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 400e942018f5b73e9797394f5cd47a1d
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -78,7 +78,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy9.isDisplayed(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
 at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
@@ -90,11 +90,85 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageElementsAndNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Medium_Selenium_Framework_Questions.HomePageTest@7f552bd3]" started-at="2025-06-15T23:23:25 EDT" name="tearDown" finished-at="2025-06-15T23:23:25 EDT" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Medium_Selenium_Framework_Questions.HomePageTest@3daa422a]" started-at="2025-06-16T19:43:46 EDT" name="tearDown" finished-at="2025-06-16T19:43:47 EDT" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Medium_Selenium_Framework_Questions.HomePageTest -->
+      <class name="Difficult_Selenium_Framework_Questions.ShoppingCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Difficult_Selenium_Framework_Questions.ShoppingCartTest@39529185]" started-at="2025-06-16T19:43:12 EDT" name="setUp" finished-at="2025-06-16T19:43:19 EDT" duration-ms="7448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductAddedToCart()[pri:0, instance:Difficult_Selenium_Framework_Questions.ShoppingCartTest@39529185]" started-at="2025-06-16T19:43:19 EDT" name="verifyProductAddedToCart" finished-at="2025-06-16T19:43:24 EDT" duration-ms="4699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Difficult_Selenium_Framework_Questions.ShoppingCartTest@39529185]" started-at="2025-06-16T19:43:24 EDT" name="tearDown" finished-at="2025-06-16T19:43:24 EDT" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Difficult_Selenium_Framework_Questions.ShoppingCartTest -->
+      <class name="Difficult_Selenium_Framework_Questions.LoginTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:Difficult_Selenium_Framework_Questions.LoginTest@76508ed1]" started-at="2025-06-16T19:42:55 EDT" name="setupExtent" finished-at="2025-06-16T19:42:55 EDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Difficult_Selenium_Framework_Questions.LoginTest@76508ed1]" started-at="2025-06-16T19:42:55 EDT" name="setUp" finished-at="2025-06-16T19:43:00 EDT" duration-ms="4765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:Difficult_Selenium_Framework_Questions.LoginTest@76508ed1]" started-at="2025-06-16T19:43:00 EDT" name="verifyLoginWithValidCredentials" finished-at="2025-06-16T19:43:03 EDT" duration-ms="2871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Difficult_Selenium_Framework_Questions.LoginTest@76508ed1]" started-at="2025-06-16T19:43:03 EDT" name="tearDown" finished-at="2025-06-16T19:43:03 EDT" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Difficult_Selenium_Framework_Questions.LoginTest -->
+      <class name="Medium_Selenium_Framework_Questions.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Medium_Selenium_Framework_Questions.CheckoutTest@72f926e6]" started-at="2025-06-16T19:43:24 EDT" name="setUp" finished-at="2025-06-16T19:43:29 EDT" duration-ms="4885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductInCheckoutPage()[pri:0, instance:Medium_Selenium_Framework_Questions.CheckoutTest@72f926e6]" started-at="2025-06-16T19:43:29 EDT" name="verifyProductInCheckoutPage" finished-at="2025-06-16T19:43:32 EDT" duration-ms="2618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInCheckoutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Medium_Selenium_Framework_Questions.CheckoutTest@72f926e6]" started-at="2025-06-16T19:43:32 EDT" name="tearDown" finished-at="2025-06-16T19:43:32 EDT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Medium_Selenium_Framework_Questions.CheckoutTest -->
+      <class name="Medium_Selenium_Framework_Questions.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Medium_Selenium_Framework_Questions.RegistrationTest@35ef1869]" started-at="2025-06-16T19:43:47 EDT" name="setUp" finished-at="2025-06-16T19:43:54 EDT" duration-ms="6991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulRegistration()[pri:0, instance:Medium_Selenium_Framework_Questions.RegistrationTest@35ef1869]" started-at="2025-06-16T19:43:54 EDT" name="verifySuccessfulRegistration" finished-at="2025-06-16T19:43:56 EDT" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Medium_Selenium_Framework_Questions.RegistrationTest@35ef1869]" started-at="2025-06-16T19:43:56 EDT" name="tearDown" finished-at="2025-06-16T19:43:56 EDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Medium_Selenium_Framework_Questions.RegistrationTest -->
+      <class name="Difficult_Selenium_Framework_Questions.SearchPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Difficult_Selenium_Framework_Questions.SearchPageTest@2145b572]" started-at="2025-06-16T19:43:03 EDT" name="setUp" finished-at="2025-06-16T19:43:09 EDT" duration-ms="5999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:Difficult_Selenium_Framework_Questions.SearchPageTest@2145b572]" started-at="2025-06-16T19:43:09 EDT" name="verifySearchFunctionality" finished-at="2025-06-16T19:43:12 EDT" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Difficult_Selenium_Framework_Questions.SearchPageTest@2145b572]" started-at="2025-06-16T19:43:12 EDT" name="tearDown" finished-at="2025-06-16T19:43:12 EDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Difficult_Selenium_Framework_Questions.SearchPageTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
